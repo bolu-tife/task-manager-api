@@ -14,8 +14,8 @@ app.use(express.json());
 
 //Home page
 app.get("/", function (req, res) {
-    res.send("Welcome to this Task Manager");
-  });
+  res.send("Welcome to this Task Manager");
+});
 
 
 // routes
